@@ -17,7 +17,7 @@ Clone this repository to your local machine:
 
 bash
 Copy code
-git clone https://github.com/yourusername/cloud-vendor-crud.git
+git clone https://github.com/Balachander283/Cloud-Vendor-.git
 Open the project in Intellij IDEA or your preferred Java IDE.
 
 Configure the MySQL database connection in src/main/resources/application.properties. You will need to specify your MySQL database URL, username, and password.
