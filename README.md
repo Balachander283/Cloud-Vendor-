@@ -3,7 +3,7 @@
 #Overview
 This repository contains a CRUD (Create, Read, Update, Delete) application built using Core Java, Spring Boot, RestAPI, JPA, and MySQL. The application allows you to perform basic operations on data related to a fictional cloud vendor.
 
-#Features
+# Features
 Create, Read, Update, and Delete operations for cloud vendor data.
 Utilizes Spring Boot for building robust RESTful APIs.
 Integrates with a MySQL database using Java Persistence API (JPA) for data storage.
@@ -13,7 +13,7 @@ Developed using Intellij IDEA as the primary IDE.
 Setup
 #To run this CRUD application locally, follow these steps:
 
-#Clone this repository to your local machine:
+# Clone this repository to your local machine:
 
 bash
 Copy code
@@ -22,7 +22,7 @@ Open the project in Intellij IDEA or your preferred Java IDE.
 
 Configure the MySQL database connection in src/main/resources/application.properties. You will need to specify your MySQL database URL, username, and password.
 
-#Build the project using Maven:
+# Build the project using Maven:
 
 bash
 Copy code
@@ -34,7 +34,7 @@ Copy code
 mvn spring-boot:run
 The application will start, and you can access the API endpoints for CRUD operations.
 
-API Endpoints
+# API Endpoints
 Here are the API endpoints available in this CRUD application:
 
 GET /vendors: Retrieve a list of all cloud vendors.
@@ -51,8 +51,8 @@ Update the base URL in Postman to match your local environment or deployment URL
 
 Use the collection to make requests to the API endpoints and test the CRUD operations.
 
-#Contributions
+# Contributions
 Contributions to this project are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to open an issue or create a pull request.
 
-#License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
